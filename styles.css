@@ -31,6 +31,11 @@ h1 {
   line-height: 1.2em;
 }
 
+div {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
 a:visited { color: white }
 a:link { color: white }
 a:hover { color: rgb(209,244,255); text-decoration: underline }
