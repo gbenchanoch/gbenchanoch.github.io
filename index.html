@@ -3,6 +3,27 @@
 
 <head>
   <link rel="stylesheet" href="styles.css">
+  <script>
+	function passWord() {
+	var testV = 1;
+	var pass1 = prompt('Please Enter The Password For This Presentation',' ');
+	while (testV < 3) {
+	if (!pass1) 
+	history.go(-1);
+	if (pass1.toLowerCase() == "gbcpresent") {
+	alert('You Got it Right!');
+	location.href = "https://gbenchanoch.github.io/Presentation_1";
+	break;
+	} 
+	testV+=1;
+	var pass1 = 
+	prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+	}
+	if (pass1.toLowerCase()!="password" & testV ==3) 
+	history.go(-1);
+	return " ";
+	} 
+  </script>
 </head>
 
 <body>
@@ -15,7 +36,7 @@
 	<div>
 		<ul>
 			<li>
-				<a href="https://gbenchanoch.github.io/Presentation_1">This is my first presentation</a>
+				<a onclick = "return passWord();">This is my first presentation</a>
 			</li>
 			<li>
 				<a>Nothing linked here yet</a>
