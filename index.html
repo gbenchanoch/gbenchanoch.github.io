@@ -5,23 +5,21 @@
   <link rel="stylesheet" href="styles.css">
   <script>
 	function passWord() {
-	var testV = 1;
-	var pass1 = prompt('Please Enter The Password For This Presentation',' ');
-	while (testV < 3) {
-	if (!pass1) 
-	history.go(-1);
-	if (pass1.toLowerCase() == "gbcpresent") {
-	alert('You Got it Right!');
-	location.href = "https://gbenchanoch.github.io/Presentation_1";
-	break;
-	} 
-	testV+=1;
-	var pass1 = 
-	prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
-	}
-	if (pass1.toLowerCase()!="password" & testV ==3) 
-	history.go(-1);
-	return " ";
+		var testV = 1;
+		var pass1 = prompt('Please Enter The Password For This Presentation',' ');
+		while (testV < 3) {
+		if (pass1.toLowerCase() == "gbcpresent") {
+		alert('Access Granted');
+		location.href = "https://gbenchanoch.github.io/Presentation_1";
+		break;
+		} 
+		testV+=1;
+		var pass1 = 
+		prompt('Access Denied - Password Incorrect, Please Try Again.','Password');
+		}
+		if (pass1.toLowerCase()!="password" & testV ==3) 
+		history.go(-1);
+		return " ";
 	} 
   </script>
 </head>
