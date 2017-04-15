@@ -38,14 +38,14 @@ h1 {
 
 a:visited { color: white }
 a:link { color: white }
-a:hover { color: rgb(209,244,255); text-decoration: underline }
+a:hover { color: rgb(153,229,255); text-decoration: underline }
 a:active { color: rgb(153,229,255); text-decoration: underline }
 
 a {text-decoration: none}
 .toolbar a:link {color: white}
 .toolbar a:visited {color: white}
 .toolbar a:active {color: rgb(153,229,255)}
-.toolbar a:hover {color: rgb(209,244,255)}
+.toolbar a:hover {color: rgb(153,229,255)}
 .toolbar ol{
   color:rgb(153,229,255);
 }
