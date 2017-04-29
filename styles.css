@@ -128,7 +128,7 @@ li li ol li {
   border:solid;
   border-radius:5px;
   border-color:black;
-  position: block;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
